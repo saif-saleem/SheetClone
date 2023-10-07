@@ -1,0 +1,95 @@
+*{
+    font-family: monospace;
+    font-size: 14px;
+}
+.menus{
+   
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+}
+
+.active-option{
+    background-color: #d0d8e0;
+}
+
+.menus>div{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+.menus>div:hover{
+    background-color: #d0d8e0aa;
+}
+
+.head{
+background-color: #208d74;
+height: 65px;
+width: 100%;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+align-items: end;
+/* gap: 1rem; */
+}
+
+.head>div{
+    position: relative;
+    left: 15px;
+    color: white;
+    font-family: system-ui !important;
+    width: 65px;
+    height: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#options{
+    width: 100%;
+}
+
+#sp{
+   background-color: #f0f3f6;
+   color: #208d74; 
+}
+
+#ftstyle{
+    border: none;
+    height: 25px;
+}
+
+#ftsize{
+    border: none;
+    height: 25px;
+}
+
+.bar{
+    margin-top: 10px;
+    height: 25px;
+    display: flex;
+
+    align-items: end;
+}
+
+.Formula_Bar{
+    width: 75%;
+    height: 5px;
+    background-color: white;
+}
+
+.formula-icon{
+    height: 75%;
+}
+
+.formula-bar{
+    width: 100%;
+    margin-left: 13px;
+    border: none;
+    height: 80%;
+
+}
